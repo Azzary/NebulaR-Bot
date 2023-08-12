@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Example</title>
+</head>
+<body>
+    <div id="message-container"></div>
+    <input type="text" id="message-input" />
+    <button onclick="sendMessage()">Envoyer</button>
+
+    <script>
+        var socket = new WebSocket("ws://localhost:8080"); // Remplacez l'URL par celle de votre serveur WebSocket
+
+        // Fonction exécutée lorsque la connexion WebSocket est ouverte
+        socket.onopen = function (event) {
+            console.log("WebSocket connection established.");
+        };
+
+        // Fonction exécutée lorsque des données sont reçues du serveur
+        socket.onmessage = function (event) {
+            var messageContainer = document.getElementById("message-container");
+            messageContainer.innerHTML += "<p>" + event.data + "</p>";
+        };
+
+        // Fonction exécutée lorsque la connexion WebSocket est fermée
+        socket.onclose = function (event) {
+            console.log("WebSocket connection closed.");
+        };
+
+        // Fonction pour envoyer un message au serveur WebSocket
+        function sendMessage() {
+            var messageInput = document.getElementById("message-input");
+            var message = messageInput.value;
+            socket.send(message);
+            messageInput.value = ""; // Effacer le champ de saisie après l'envoi du message
+        }
+    </script>
+</body>
+</html>

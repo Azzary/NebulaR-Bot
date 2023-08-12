@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="12.8px" width="18.5px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -277.7, -240.95)">
+    <path d="M283.9 241.65 L290.95 241.65 290.95 243.85 290.95 241.65 283.9 241.65 M291.6 244.55 L291.6 240.95 282.25 240.95 282.25 244.55 286.95 244.55 291.6 244.55" fill="#423737" fill-rule="evenodd" stroke="none"/>
+    <path d="M286.95 253.75 L296.2 244.55 291.6 244.55 286.95 244.55 286.95 253.75 M294.95 245.0 L287.4 252.6 287.4 245.0 287.4 252.6 294.95 245.0" fill="#9e8b8b" fill-rule="evenodd" stroke="none"/>
+    <path d="M282.25 244.55 L277.7 244.55 286.95 253.75 286.95 244.55 282.25 244.55" fill="#665555" fill-rule="evenodd" stroke="none"/>
+    <path d="M290.95 243.85 L290.95 241.65 283.9 241.65" fill="none" stroke="#9e8b8b" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.05"/>
+    <path d="M286.95 253.75 L296.2 244.55 291.6 244.55 291.6 240.95 282.25 240.95 282.25 244.55 277.7 244.55 286.95 253.75 286.95 244.55 291.6 244.55 M286.95 244.55 L282.25 244.55" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.2509804" stroke-width="0.05"/>
+    <path d="M287.4 245.0 L287.4 252.6 294.95 245.0" fill="none" stroke="#c5baba" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.05"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "label": "Commencer",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Apprenez comment installer et configurer le bot en quelques étapes simples."
+  }
+}

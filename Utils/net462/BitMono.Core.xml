@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BitMono.Core</name>
+    </assembly>
+    <members>
+        <member name="T:BitMono.Core.Attributes.DoNotResolveAttribute">
+            <summary>
+            Represents a sort logic which doesn't includes specified <see cref="T:BitMono.Core.Attributes.MemberInclusionFlags"/> in arguments of Protection (i.e Members).
+            </summary>
+        </member>
+        <member name="T:BitMono.Core.Attributes.RuntimeMonikerAttribute">
+            <summary>
+            Represents a mechanism that specifies the runtime moniker of the protection.
+            <remarks>i.e if you see this attribute on protection then only specified attributes are the supported runtime monikers for the protection.
+            If you don't see any of the attributes then it works everywhere, also, users will get a message via <see cref="M:BitMono.Core.Attributes.RuntimeMonikerAttribute.GetMessage"/></remarks>
+            </summary>
+        </member>
+        <member name="P:BitMono.Core.Attributes.RuntimeMonikerAttribute.Name">
+            <summary>
+            Gets the name of the runtime moniker.
+            </summary>
+        </member>
+    </members>
+</doc>
